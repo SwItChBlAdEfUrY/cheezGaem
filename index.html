@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>cheezGaem</title>
+    
+  </head>
+  <body>
+    <script href="js.js"></script>
+    <div id="idle">
+<table border="1">
+<tr id="moneydisplay"><td id="stats" colspan="2"><p id="money" style="text-align:right">Money: $0</p></td></tr>
+<tr><td colspan="1"><pre>
+     _--"-.
+  .-"      "-.
+ |""--..      '-.
+ |      ""--..   '-.
+ |.-. .-".    ""--..".
+ |'./  -_'  .-.      |
+ |      .-. '.-'   .-'
+ '--..  '.'    .-  -.
+      ""--..   '_'   :
+            ""--..   |
+                  ""-' </pre></td><td colspan=1 id=macronie2 hidden=true><pre>
+     
+       
+       __---"""""""""""---__
+     .'                     '.
+    |                         |
+   |           _____           |
+  |           |     |           |
+  |          .       .          |
+  |  _____  |         |  _____  |
+  '-'-----'-'         '-'-----'-'
+                   
+</pre></td></tr>
+                  
+<tr>
+<td><p id="cheezdisplay">You have 0 cheezez</p>
+<p>Click 2 gain one cheez</p>
+<button id="butt1" onclick="addcheez(1)">Mine cheezez</button></td>
+<td id="macronie" hidden="true">
+<p id="macaroniedisplay">You have 0 macaronies</p>
+<p>Click 2 trade 200 cheezez for a macaronie</p>
+<button id="butt2" disabled="true" onclick="buymacaronie()">Buy macaronies</button><button id="sellmac" onclick="sellmacaronie()" hidden="true">Sell macaronies</button>
+</td>
+</tr>
+<tr><td id="crafting" hidden="true">
+<p id="macancheezdisplay">You have 0 Mac&Cheezez</p>
+<p>Click 2 craft a Mac&Cheez for 500 cheeze and 50 macaronies</p>
+<button id="butt3" disabled="true" onclick="craftMacAnCheze()">Buy macaronies</button>
+</td><td id="grammiepurch" hidden=true> <p id="grammiedisplay">You have 0 grammies</p> <p>Click 2 feed a grammie some mac and cheeze, they will make u macaronies.</p> <button id="butt4" onclick="purchgrammie()" >Feed grammie</button> </td></tr>
+</table>
+</div>
+  </body>
+</html>
